@@ -1,4 +1,4 @@
-# Movie Application 🎥
+# ReelLouge - Movie Application 🎥
 
 
 ## 📖 Overview
