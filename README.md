@@ -116,6 +116,13 @@ npm run test
 
 ## 🎥 Demo/Preview
 View the working live demo here: [Movie application](https://purple-meadow-09333ff03.4.azurestaticapps.net/)
+<img width="1652" alt="Screenshot 2025-02-01 at 19 32 58" src="https://github.com/user-attachments/assets/ae464755-3098-4c8d-8778-55bf6b81a522" />
+![Screenshot_1-2-2025_193643_purple-meadow-09333ff03 4 azurestaticapps net](https://github.com/user-attachments/assets/1f6bbedb-a1cc-4886-be98-7914dd1c032e)
+![Screenshot_1-2-2025_193615_purple-meadow-09333ff03 4 azurestaticapps net](https://github.com/user-attachments/assets/fb98a622-d1df-427a-807e-37d5d3cf24dc)
+![Screenshot_1-2-2025_193817_purple-meadow-09333ff03 4 azurestaticapps net](https://github.com/user-attachments/assets/9895c62e-f302-48db-954d-49c19cd5000c)
+![Screenshot_1-2-2025_193910_purple-meadow-09333ff03 4 azurestaticapps net](https://github.com/user-attachments/assets/82ae2283-a752-48ee-bcb1-d07e6141f9eb)
+
+
 
 ## 📝 License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
