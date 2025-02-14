@@ -112,7 +112,7 @@ function Header( { setSelectedMovie }) {
                     window.location.href = '/';}
                 }>
                     <BiSolidCoffee className='logoIcon'/>
-                    <h1>Movie App</h1>
+                    <h1>ReelLounge</h1>
                 </div>
                 <nav>
                     <ul>

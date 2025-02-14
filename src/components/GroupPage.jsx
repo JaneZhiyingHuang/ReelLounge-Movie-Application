@@ -257,7 +257,7 @@ function GroupPage() {
                                         )
                                     }
                                         <div className="review-item-submit">
-                                            <input onChange={(e)=>setReview(e.target.value)} type="text" name="moviereview" placeholder="Share your thoughts about this movie" id="" />
+                                            <input onChange={(e)=>setReview(e.target.value)} type="text" name="moviereview" placeholder="Share your thoughts about this movie..." id="" />
                                             <button onClick={(e)=>handleReviewSubmit(e, movie.movie_id)}><FaPlus className="addIcon" /></button>
                                         </div>
                                         

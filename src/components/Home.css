@@ -9,6 +9,6 @@
   flex-direction: column;
   width: 100%;
   height: 95%;  
-  background: linear-gradient(45deg, rgba(33, 32, 30, 0.8) 20%, rgba(55, 49, 42, 0.8) 80%);
+  /* background: linear-gradient(45deg, rgba(33, 32, 30, 0.8) 20%, rgba(55, 49, 42, 0.8) 80%); */
   gap: 0;
 }

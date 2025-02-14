@@ -18,10 +18,12 @@
     width: 70%;
     align-items: flex-end;
     background-color: rgb(177, 177, 177);
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent), rgba(177, 177, 177, 1);
+    background-size: 10px 10px; 
     border-radius: 10px;
     padding: 30px 5px;
-}
-
+  }
+  
 .group-info {
     display: flex;
     flex-direction: column;
@@ -29,16 +31,17 @@
     justify-content: center;
     padding: 15px;
     width: 80%;
-    gap: 10px;
+    /* gap: 10px; */
     height: 100%;
-    color: #fff;
+    color: #000000c6;
     height: fit-content;
 }
 
 .group-info > p {
-    font-size: 18px;
+    font-size: 16px;
     width: 50%;
     font-weight: 400;
+    color: rgba(0, 0, 0, 0.739);
 }
 
 .group-details {
@@ -46,7 +49,7 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
-    gap: 10px;
+    /* gap: 10px; */
     padding: 15px;
     width: 20%;
 }
@@ -60,30 +63,31 @@
 }
 
 .delete-button {
-    background-color: #f44336;
+    background-color: #f443368d;
     color: #fff;
-    padding: 5px 10px;
+    padding: 5px 25px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer; 
+    /* font-size: 10px; */
 }
 
 .leave-button  {
     border: none;
-    background-color: #c4c4c4;
+    background-color: #d7d4d4;
     color: #000000;
     cursor: pointer;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 5px 25px;
+    border-radius: 10px;
 }
 
 .join-button  {
     border: none;
-    background-color: #c4c4c4;
+    background-color: #d7d4d4;
     color: #000000;
     cursor: pointer;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 5px 25px;
+    border-radius: 10px;
 }
 
 .group-details > p > span {
@@ -96,7 +100,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 70%;
-    padding: 10px 0;
+    /* padding: 10px 0; */
     gap: 10px;
 }
 
@@ -109,9 +113,9 @@
 }
 
 .group-movie {
-    background-color: #37312A;
-    border: 2px solid #a7a7a7;
-    border-radius: 10px;
+    background-color: #37312ad8;
+    border: 2px solid #a7a7a798;
+    border-radius: 15px;
     display: flex;
     flex-direction: row;
     padding: 10px;
@@ -139,40 +143,42 @@
     display: flex;
     flex-direction: column;
     padding: 5px;
-    gap: 10px;
+    gap: 8px;
     width: 90%;
 }
 
 .review-item {
-    background-color: #a7a7a7;
+    background-color: #a7a7a79e;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 8px;
     width: 100%;
     gap: 5px;
     font-weight: 500;
 }
 
 .review-item > p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
+    font-weight: bold
 }
 
 .review-item > p > span {
-    font-size: 10px;
-    font-weight: bold;
+    font-size: 12px;
+    font-weight: normal;
 }
 
 .review-item-submit {
-    background-color: #545454;
+    background-color: #54545479;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px;
-    border-radius: 10px;
-    width: 100%;
+    border-radius: 8px;
+    width: 90%;
+    height: 22px;
     gap: 5px;
     font-weight: 500;
     color:#fff;
@@ -180,15 +186,15 @@
 
 .review-item-submit > input {
     width: 100%;
-    padding: 10px;
+    padding: 8px;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     background-color: #545454;
     color: #fff;
 }
 
 .review-item-submit > input::placeholder {
-    color: #fff;
+    color: #ffffff6a;
 }
 
 .review-item-submit > input:focus {
@@ -198,7 +204,7 @@
 .review-item-submit > button {
     padding: 3px;
     background-color: #545454;
-    color: #fff;
+    color: #ffffff9a;
     border: none;
     border-radius: 40%;
     cursor: pointer;
@@ -206,13 +212,13 @@
 
 
 .addIcon {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 
 .group-members {
     flex: 0.3; 
-    background-color: #5e4d4c; 
+    background-color: #5e4d4cd3; 
     border-radius: 10px; 
     padding: 10px;
     color: #fff; 
@@ -224,7 +230,13 @@
 
 .group-movie img {
     height: 150px; 
-    border-radius: 5px; 
+    border-radius: 10px; 
+}
+
+.group-members h2 {
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .group-members ul {
@@ -246,9 +258,14 @@
     font-weight: bold;
 }
 
+.group-members button {
+    padding: 3px 8px;
+    font-size: 10px;
+}
+
 .userIcon {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 @media (max-width: 928px) {
     .group-card {

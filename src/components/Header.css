@@ -25,16 +25,21 @@
   display: flex;
   color: #ffffff;
   align-items: center;
-  /* background-color: #545454; */
   padding: 10px;
   height: 100%;
-  /* border-radius: 5px; */
+  font-style: italic; 
+  font-family: 'Brush Script MT', cursive; 
+  /* text-shadow: 2px 2px 8px rgba(252, 227, 147, 0.35);  */
+  font-weight: lighter;
   cursor: pointer;
 }
+
+
 
 .logoIcon {
   width: 40px;
   height: 40px;
+  /* filter: drop-shadow(2px 2px 12px rgba(252, 227, 147, 0.2)); */
 }
 
 nav {

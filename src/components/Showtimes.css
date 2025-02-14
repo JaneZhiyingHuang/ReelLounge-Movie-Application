@@ -14,9 +14,9 @@
     max-width: 400px; /* Limit max width for better usability */
     height: 40px;
     font-weight: bold;
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #a7a7a7;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #a7a7a7bf;
     background-color: #282828;
     color: #fff;
 }
@@ -37,13 +37,14 @@
     align-items: center;
     padding: 10px;
     gap: 30px;
-    border: 2px solid #a7a7a7;
+    border: 2px solid #a7a6a6c2;
     background-color: #37312A;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .show-item > img {
     object-fit: fill;
+    border-radius: 8px;
 }
 
 .show-details {
@@ -54,9 +55,26 @@
     gap: 5px;
 }
 
+.show-details > p {
+    font-size: 0.85rem;
+}
+
 .show-details > h3 {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: bold;
+}
+
+.show-details button {
+    padding: 5px 20px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    background-color: #cfcececd;
+}
+
+.show-details button:hover {
+    background-color: #8c8c8c;
 }
 
 /* --- Responsive Adjustments --- */
